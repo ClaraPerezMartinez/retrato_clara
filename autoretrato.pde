@@ -2,7 +2,7 @@ int m=20;
 
 void setup(){
    size(300,300);
-   strokeWeight(2);
+   strokeWeight(4);
    noFill();
 }
 void draw(){
@@ -31,6 +31,7 @@ void draw(){
   circle(-m*4.5,-m*1.3,30);
   circle(-m*4,-m*2,30);
   triangle(-m*0.5,0,0,-m*0.5,m*0.5,0);
-   
+  ellipse(-m*1.3,-m*1.3,10,10);
+  ellipse(m*1.3,-m*1.3,10,10);
 }
  
